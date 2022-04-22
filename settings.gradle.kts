@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+enableFeaturePreview("VERSION_CATALOGS")
 rootProject.name = "android initial template"
-include ':app'
+include(":app")
